@@ -1,4 +1,7 @@
 import React from 'react';
+import person1 from '../assets/person-1.jpg'
+import person2 from '../assets/person2.png'
+import person3 from '../assets/person3.jpg'
 
 const TeamSection = () => {
   return (
@@ -9,9 +12,9 @@ const TeamSection = () => {
           <p>Home is behind, the world ahead and there are many paths to tread through shadows to the edge.</p>
         </div>
         <div className="row">
-          <TeamMember imgSrc="holder.js/100px180?text=Image cap" name="Person Name" jobTitle="Job Title" />
-          <TeamMember imgSrc="holder.js/100px180?text=Image cap" name="Person Name" jobTitle="Job Title" />
-          <TeamMember imgSrc="holder.js/100px180?text=Image cap" name="Person Name" jobTitle="Job Title" />
+          <TeamMember imgSrc={person1} name="Person Name" jobTitle="Job Title" />
+          <TeamMember imgSrc={person2} name="Person Name" jobTitle="Job Title" />
+          <TeamMember imgSrc={person3} name="Person Name" jobTitle="Job Title" />
         </div>
       </div>
     </section>

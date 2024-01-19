@@ -1,5 +1,4 @@
 import React from 'react'
-import '../RoadmapSection/RoadmapSection.css'
 
 import Accordion from 'react-bootstrap/Accordion';
 

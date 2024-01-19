@@ -1,7 +1,6 @@
 import React from 'react';
-import image2 from '../../assets/image2.png';
-import videocol from '../../assets/image1.png';
-import './CheapestSection.css'
+import image2 from '../assets/image2.png';
+import videocol from '../assets/image1.png';
 
 const CheapestSection = () => {
   return (

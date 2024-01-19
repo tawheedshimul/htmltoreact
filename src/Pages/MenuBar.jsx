@@ -2,7 +2,6 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import './MenuBar.css';
 
 function MenuBar() {
   return (
@@ -29,7 +28,7 @@ function MenuBar() {
                 <a className="nav-links" href="#roadmapping">Roadmap </a>
               </li>
               <li className="nav-item">
-                <a className="nav-links" href="./images/WPF_GDP_010124.pdf">Whitepaper</a>
+                <a className="nav-link" href="./images/WPF_GDP_010124.pdf">Whitepaper</a>
               </li>
 
               <li className="nav-item">
