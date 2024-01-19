@@ -1,8 +1,21 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 
 function MenuBar() {
+  const [activeNavItem, setActiveNavItem] = useState('Home'); // Set the default active item
+
+  // Define your Nav items and their corresponding href values
+  const navItems = [
+    { label: 'Home', href: '#' },
+    { label: 'About', href: '#cheapest-sec' },
+    { label: 'Partners', href: '#industry-leader' },
+    { label: 'Coin', href: '#accordian-sec' },
+    { label: 'Roadmap', href: '#roadmapping' },
+    { label: 'Whitepaper', href: './images/WPF_GDP_010124.pdf' },
+    { label: 'Contact', href: '#contact' },
+  ];
+
   return (
     <header>
       <Navbar collapseOnSelect expand="lg" className='mx-5'>
@@ -12,27 +25,13 @@ function MenuBar() {
           <Nav>
             <div className='nav-border'>
               <ul className="navbar-nav">
-                <li className="nav-item active">
-                  <a className="nav-link" href="#">Home</a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="#cheapest-sec">About</a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="#industry-leader">Partners</a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="#accordian-sec">Coin</a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="#roadmapping">Roadmap </a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="./images/WPF_GDP_010124.pdf">Whitepaper</a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="#contact">Contact </a>
-                </li>
+                {navItems.map((item) => (
+                  <li className={`nav-item ${activeNavItem === item.label ? 'active' : ''}`} key={item.label}>
+                    <a className="nav-link" href={item.href} onClick={() => setActiveNavItem(item.label)}>
+                      {item.label}
+                    </a>
+                  </li>
+                ))}
                 <li className="nav-item language-switherss">
                   <a className="nav-link" href="#">Languages</a>
                   <ul className="language-swither">
@@ -40,8 +39,8 @@ function MenuBar() {
                     <li><a href="#">German</a></li>
                   </ul>
                 </li>
-                <div className="header-btn" >
-                  <a  href="#">Connect Wallet</a>
+                <div className="header-btn">
+                  <a href="#">Connect Wallet</a>
                 </div>
               </ul>
             </div>
