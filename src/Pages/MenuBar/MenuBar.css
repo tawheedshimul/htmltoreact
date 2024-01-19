@@ -1,0 +1,49 @@
+.nav-item:a{
+}
+
+.nav-links{
+    color: white;
+    text-decoration: none;
+}
+.nav-links:hover{
+    color: orange;
+}
+.nav-item:hover .language-swither {
+    display: block;
+    border: 1px solid #ccc; /* Set your desired border color */
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+.language-swither a {
+    text-decoration: none;
+    color: #ffffff; /* Set your desired text color */ 
+}
+
+
+.language-switherss {
+    position: relative;
+}
+.language-swither {
+    position: absolute;
+   display: none;
+    top: 50px;
+    background: #000;
+    width: 100%;
+    color: #ffffff;
+}
+.language-switherss:hover  .language-swither{
+    display:block;
+}
+
+.header-btn a {
+    background: #3B25D4;
+    color: #fff;
+    font-size: 16px;
+    padding: 8px 19px;
+    border-radius: 10px;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+}
+.navbar-light .navbar-toggler {
+    background: #fff;
+}
