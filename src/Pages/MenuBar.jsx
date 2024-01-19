@@ -40,9 +40,9 @@ function MenuBar() {
                     <li><a href="#">German</a></li>
                   </ul>
                 </li>
-                <div className="header-btn" style={{ height: '10px' }}>
+                <li className="header-btn">
                   <a href="#">Connect Wallet</a>
-                </div>
+                </li>
               </ul>
             </div>
 
