@@ -6,7 +6,7 @@ import person3 from '../assets/person3.jpg'
 const TeamSection = () => {
   return (
     <section className="our-team-sec" id="our-team">
-      <div className="container">
+      <div className="mx-3">
         <div className="top-heading">
           <h3>Our Team</h3>
           <p>Home is behind, the world ahead and there are many paths to tread through shadows to the edge.</p>

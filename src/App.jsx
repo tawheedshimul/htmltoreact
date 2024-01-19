@@ -24,8 +24,9 @@ function App() {
       <NoFees />
       <TokenEconomy />
       <CheapestSection />
-      <WorkingLeadersSection />
+      
       <TeamSection />
+      <WorkingLeadersSection />
       <RoadmapSection />
       <Coin />
       <ContactPage />

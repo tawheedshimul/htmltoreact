@@ -4,7 +4,7 @@ import image1 from '../assets/image1.png'
 function NoFees() {
     return (
         <section class="nofees-sec" id="nofees-sec">
-            <div class="container">
+            <div class="mx-3">
                 <div class="top-haeding">
                     <h3>No hidden fees. <br/> Use anywhere reliably. </h3>
                 </div>

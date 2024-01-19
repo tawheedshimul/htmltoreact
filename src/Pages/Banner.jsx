@@ -1,10 +1,17 @@
 import React from 'react';
-import bannerbg from "../assets/banner-bg.jpg";
+import banner from "../assets/background2.png";
 
 function Banner() {
     return (
-        <section className="banner-sec" id="banner" style={{ background: `url(${bannerbg})` }}>
-            <div className="container">
+        <section
+            className="banner-sec" id="banner"
+            style={{
+                background: `url(${banner})`,
+                backgroundRepeat: 'no-repeat',
+                backgroundSize: 'cover', // or 'contain' based on your preference
+            }}
+        >
+            <div className="mx-3">
                 <div className="row">
                     <div className="col-md-9 col-sm-12">
                         <p>Why use GDPC</p>

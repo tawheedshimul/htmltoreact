@@ -7,101 +7,101 @@ import bnb from "../assets/bnb.png.png"
 
 function GdpCoin() {
     return (
-        <section class="gdp-coin-sec" id="gdp-coin-sec">
+        <section className="gdp-coin-sec" id="gdp-coin-sec">
 
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="presaleContainer">
-                            <div class="presaleTop">
-                                <img alt="Presale Icon" class="presaleIcon" src={gdpLogo} />
-                                <div class="presaleHead">
-                                    <h3 class="presaleTokenName">GDP Coin</h3>
-                                    <p class="presalePair">Gdp / <span id="exchange-currency">BNB</span>
+            <div className="mx-3">
+                <div className="row">
+                    <div className="col-md-6">
+                        <div className="presaleContainer">
+                            <div className="presaleTop">
+                                <img alt="Presale Icon" className="presaleIcon" src={gdpLogo} />
+                                <div className="presaleHead">
+                                    <h3 className="presaleTokenName">GDP Coin</h3>
+                                    <p className="presalePair">Gdp / <span id="exchange-currency">BNB</span>
                                     </p>
-                                    <a class="tokenExplorer" href="#" target="_blank">View on Explorer <i class="fa fa-external-link"></i>
+                                    <a className="tokenExplorer" href="#" target="_blank">View on Explorer <i className="fa fa-external-link"></i>
                                     </a>
                                 </div>
-                                <div class="presaleAuth">
-                                    <a class="audited" href="#" target="_blank">
-                                        <i class="fa fa-check-circle"></i> Audited </a>
-                                    <a class="verified" href="#" target="_blank">
-                                        <i class="fa fa-check-circle"></i> Verified </a>
+                                <div className="presaleAuth">
+                                    <a className="audited" href="#" target="_blank">
+                                        <i className="fa fa-check-circle"></i> Audited </a>
+                                    <a className="verified" href="#" target="_blank">
+                                        <i className="fa fa-check-circle"></i> Verified </a>
                                 </div>
                             </div>
-                            <div class="presaleTimer">
-                                <p class="timerItem" id="day">39</p>
-                                <small class="timerDot">:</small>
-                                <p class="timerItem" id="hr">11</p>
-                                <small class="timerDot">:</small>
-                                <p class="timerItem" id="min">27</p>
-                                <small class="timerDot">:</small>
-                                <p class="timerItem" id="sec">21</p>
+                            <div className="presaleTimer">
+                                <p className="timerItem" id="day">39</p>
+                                <small className="timerDot">:</small>
+                                <p className="timerItem" id="hr">11</p>
+                                <small className="timerDot">:</small>
+                                <p className="timerItem" id="min">27</p>
+                                <small className="timerDot">:</small>
+                                <p className="timerItem" id="sec">21</p>
                             </div>
-                            <p class="notice" id="notice"></p>
-                            <div class="presaleAction">
-                                <div class="presaleRoller" id="loader">
-                                    <div class="loader"></div>
+                            <p className="notice" id="notice"></p>
+                            <div className="presaleAction">
+                                <div className="presaleRoller" id="loader">
+                                    <div className="loader"></div>
                                 </div>
-                                <div class="balanceStrip">Your Wallet Balance is <span id="balance">0.00</span>
+                                <div className="balanceStrip">Your Wallet Balance is <span id="balance">0.00</span>
                                     <small id="balance-currency">BNB</small>
                                 </div>
-                                <div class="currencyDrop">
-                                    <div class="currencyDropItem" id="bnb">
+                                <div className="currencyDrop">
+                                    <div className="currencyDropItem" id="bnb">
                                         <img alt="currency" src={bnb} />
                                         <h3>BNB</h3>
                                     </div>
-                                    <div class="currencyDropItem" id="usdt">
+                                    <div className="currencyDropItem" id="usdt">
                                         <img alt="currency" src={usdt} />
                                         <h3>USDT</h3>
                                     </div>
-                                    <div class="currencyDropItem" id="busd">
+                                    <div className="currencyDropItem" id="busd">
                                         <img alt="currency" src={bsud} />
                                         <h3>BUSD</h3>
                                     </div>
-                                    <div class="currencyDropItem" id="usdc">
+                                    <div className="currencyDropItem" id="usdc">
                                         <img alt="currency" src={usdc} />
                                         <h3>USDC</h3>
                                     </div>
                                 </div>
-                                <input class="presaleInput" id="quantity" placeholder="Exchange Quantity" type="number" />
-                                <small class="error" id="error">Error</small>
-                                <small class="info" id="info">Info</small>
-                                <div class="balanceScale">
-                                    <p class="balanceScaleItem" id="scale-10">10%</p>
-                                    <p class="balanceScaleItem" id="scale-25">25%</p>
-                                    <p class="balanceScaleItem" id="scale-50">50%</p>
-                                    <p class="balanceScaleItem" id="scale-75">75%</p>
-                                    <p class="balanceScaleItem" id="scale-100">100%</p>
+                                <input className="presaleInput" id="quantity" placeholder="Exchange Quantity" type="number" />
+                                <small className="error" id="error">Error</small>
+                                <small className="info" id="info">Info</small>
+                                <div className="balanceScale">
+                                    <p className="balanceScaleItem" id="scale-10">10%</p>
+                                    <p className="balanceScaleItem" id="scale-25">25%</p>
+                                    <p className="balanceScaleItem" id="scale-50">50%</p>
+                                    <p className="balanceScaleItem" id="scale-75">75%</p>
+                                    <p className="balanceScaleItem" id="scale-100">100%</p>
                                 </div>
-                                <div class="presaleActionBtnWrapper">
-                                    <div class="presaleActionBtn" id="buy-btn">BUY</div>
-                                    <div class="presaleActionBtnDull" id="invalid-btn">Invalid Amount</div>
-                                    <div class="presaleActionRoller" id="action-roller">
-                                        <div class="roller-wrapper">
-                                            <div class="roller"></div>
+                                <div className="presaleActionBtnWrapper">
+                                    <div className="presaleActionBtn" id="buy-btn">BUY</div>
+                                    <div className="presaleActionBtnDull" id="invalid-btn">Invalid Amount</div>
+                                    <div className="presaleActionRoller" id="action-roller">
+                                        <div className="roller-wrapper">
+                                            <div className="roller"></div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <h4 class="presaleConversion">1 <span id="conversion-symbol">BNB</span>
-                                <i class="fa fa-long-arrow-right"></i>
+                            <h4 className="presaleConversion">1 <span id="conversion-symbol">BNB</span>
+                                <i className="fa fa-long-arrow-right"></i>
                                 <span id="conversion-amount">5000</span>
                                 <span>KDT</span>
                             </h4>
-                            <div class="presaleStats">
-                                <div class="statTop">
+                            <div className="presaleStats">
+                                <div className="statTop">
                                     <p id="presale-status">ACTIVE</p>
                                     <p id="complete-percent">0.00 %</p>
                                 </div>
-                                <div class="statBottom">
+                                <div className="statBottom">
                                     <p id="raised-amount">0.00</p>
                                     <p>Hard Cap: <span id="hard-cap">245</span> BNB </p>
                                 </div>
                             </div>
-                            <a class="contractExplorer" href="#" target="_blank">View Presale Smart Contract Address
+                            <a className="contractExplorer" href="#" target="_blank">View Presale Smart Contract Address
                             </a>
-                            <a class="brandLabel" href="#" target="_blank">Powered by <img alt="Kredict Logo"
+                            <a className="brandLabel" href="#" target="_blank">Powered by <img alt="Kredict Logo"
                                 src={gdpLogo} />GDP COIN </a>
                         </div>
                     </div>

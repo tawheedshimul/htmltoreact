@@ -1,12 +1,1 @@
-html, body{
-  scroll-behavior: smooth;
-}
-ul, ol{list-style: none;}
-body{
-  background-color: #000;
-  font-family: 'Inter', sans-serif;
-  color: #fff;
-}
-.orange{
-  color:var(--orange);
-}
+
