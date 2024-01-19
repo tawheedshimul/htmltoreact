@@ -8,7 +8,6 @@ import bnb from "../assets/bnb.png.png"
 function GdpCoin() {
     return (
         <section className="gdp-coin-sec" id="gdp-coin-sec">
-
             <div className="mx-3">
                 <div className="row">
                     <div className="col-md-6">

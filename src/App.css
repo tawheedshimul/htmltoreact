@@ -60,7 +60,7 @@ header {
   background-color: #000;
   border-bottom:1px solid #1e1e1e;
 }
-header Navbar.Brand span {
+header .navs-brand span {
   color: #fff;
   font-size: 14px;
   line-height: 14px;
@@ -94,7 +94,7 @@ Navbar.Brand {
   color: #fff;
   text-decoration: none;
   font-size: 16px;
-  padding: 8px 19px;
+  padding: 7px 19px;
   border-radius: 10px;
   font-weight: 600;
   font-family: 'Inter', sans-serif;
@@ -118,6 +118,7 @@ Navbar.Brand {
   border-radius: 5px;
   font-size: 15px;
   font-weight: 600;
+  text-decoration: none;
 }
 .banner-btn{
   gap: 10px;
@@ -1184,15 +1185,17 @@ padding: 100px 0px;
   padding: 20px 20px 20px 0px;
   margin: 0px !important;
   font-size: 18px;
+  cursor: pointer;
 }
 .accordian-sec button:focus {
   outline: none;
 }
 .accordian-sec  .accordion-body {
-  background: transparent;
+  background: black;
   color: #ffb43c;
   padding: 16px 20px 20px 0px;
 }
+
 .accordion-button::after {
   position: absolute;
   margin-left: auto;
@@ -1215,6 +1218,7 @@ padding: 100px 0px;
 }
 .accordion-button:not(.collapsed)::after {
   content: "-";
+  background: #fff;
 }
 .working-logo{
   text-align:center;
@@ -1223,7 +1227,7 @@ padding: 100px 0px;
   .footer-main {    
     position: relative;
     color: white;
-    background:url(../images/contact-img.png);
+    background:url(./assets/contact-img.png);
     background-size:cover;
     background-position:center;
     background-repeat:no-repeat;

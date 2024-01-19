@@ -6,7 +6,7 @@ function MenuBar() {
   return (
     <header>
       <Navbar collapseOnSelect expand="lg" className='mx-5'>
-        <Navbar.Brand className='text-white' href="#home"><h6>GDPC COIN</h6></Navbar.Brand>
+        <Navbar.Brand className='text-white navs-brand' href="#home"><h6>GDPC COIN</h6></Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav" className='justify-content-end'>
           <Nav>
@@ -40,12 +40,11 @@ function MenuBar() {
                     <li><a href="#">German</a></li>
                   </ul>
                 </li>
-                <li className="header-btn">
-                  <a href="#">Connect Wallet</a>
-                </li>
+                <div className="header-btn" >
+                  <a  href="#">Connect Wallet</a>
+                </div>
               </ul>
             </div>
-
           </Nav>
         </Navbar.Collapse>
       </Navbar>

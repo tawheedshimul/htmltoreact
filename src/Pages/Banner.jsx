@@ -17,7 +17,7 @@ function Banner() {
                         <p>Why use GDPC</p>
                         <h1>End driver shortage in 90 days</h1>
                         <div className="banner-btn d-flex">
-                            <a href="./images/WPF_GDP_010124.pdf" className="banner-btn1">Whitepaper</a>
+                            <a href="./images/WPF_GDP_010124.pdf" banner-btn1>Whitepaper</a>
                             <a href="#" className="banner-btn2">DEX</a>
                         </div>
                     </div>
