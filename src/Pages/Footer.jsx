@@ -1,4 +1,5 @@
 import React from 'react'
+import { Facebook, Instagram, Reddit, Twitch, Twitter, Youtube } from 'react-bootstrap-icons'
 
 function Footer() {
   return (
@@ -48,23 +49,23 @@ function Footer() {
               <ul class="social-nav">
                 <li class="nav-item">
 
-                  <a class="nav-link" href="#"><i class="fa fa-twitter"></i></a>
+                  <a class="nav-link" href="#"><i class="fa fa-twitter"><Twitter/></i></a>
                 </li>
 
                 <li class="nav-item">
-                  <a class="nav-link" href="#"><i class="fa fa-youtube"></i></a>
+                  <a class="nav-link" href="#"><i class="fa fa-youtube"><Youtube/></i></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#"><i class="fa fa-facebook"></i></a>
+                  <a class="nav-link" href="#"><i class="fa fa-facebook"><Facebook/></i></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#"><i class="fa fa-meetup"></i></a>
+                  <a class="nav-link" href="#"><i class="fa fa-meetup"><Twitch/> </i></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#"><i class="fa fa-instagram"></i></a>
+                  <a class="nav-link" href="#"><i class="fa fa-instagram"> <Instagram/> </i></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#"><i class="fa fa-reddit-alien"></i></a>
+                  <a class="nav-link" href="#"><i class="fa fa-reddit-alien"> <Reddit/> </i></a>
                 </li>
               </ul>
             </div>

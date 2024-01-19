@@ -4,6 +4,7 @@ import bsud from "../assets/busd.png.png"
 import usdt from "../assets/usdt.png.png"
 import gdpLogo from "../assets/gdpLogo.png"
 import bnb from "../assets/bnb.png.png"
+import {  CheckCircleFill } from 'react-bootstrap-icons'
 
 function GdpCoin() {
     return (
@@ -23,9 +24,9 @@ function GdpCoin() {
                                 </div>
                                 <div className="presaleAuth">
                                     <a className="audited" href="#" target="_blank">
-                                        <i className="fa fa-check-circle"></i> Audited </a>
+                                        <i className="fa fa-check-circle"><CheckCircleFill/></i> Audited </a>
                                     <a className="verified" href="#" target="_blank">
-                                        <i className="fa fa-check-circle"></i> Verified </a>
+                                        <i className="fa fa-check-circle"><CheckCircleFill/></i> Verified </a>
                                 </div>
                             </div>
                             <div className="presaleTimer">

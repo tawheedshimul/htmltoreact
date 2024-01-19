@@ -2,6 +2,7 @@ import React from 'react';
 import person1 from '../assets/person-1.jpg'
 import person2 from '../assets/person2.png'
 import person3 from '../assets/person3.jpg'
+import { Facebook, Twitter } from 'react-bootstrap-icons';
 
 const TeamSection = () => {
   return (
@@ -31,8 +32,8 @@ const TeamMember = ({ imgSrc, name, jobTitle }) => {
         <p>{name}</p>
         <h6><i>{jobTitle}</i></h6>
         <ul className="media-link">
-          <li><a href="#"><i className="fa fa-twitter"></i></a></li>
-          <li><a href="#"><i className="fa fa-facebook-f"></i></a></li>
+          <li><a href="#"><i className="fa fa-twitter"><Twitter/></i></a></li>
+          <li><a href="#"><i className="fa fa-facebook-f"><Facebook/></i></a></li>
         </ul>
       </div>
     </div>
