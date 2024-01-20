@@ -18,11 +18,11 @@ function MenuBar() {
 
   return (
     <header>
-      <Navbar collapseOnSelect expand="lg" className='mx-5'>
-        <Navbar.Brand className='text-white navs-brand' href="#"><h6>GDPC COIN</h6></Navbar.Brand>
+      <Navbar collapseOnSelect expand="lg" className='mx-4'>
+        <Navbar.Brand className='text-white navs-brand' href="#"><span>GDPC COIN</span></Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav" className='justify-content-end'>
-          <Nav>
+          <Nav className='d-flex align-items-center'>
             <div className='nav-border'>
               <ul className="navbar-nav">
                 {navItems.map((item) => (
@@ -39,11 +39,14 @@ function MenuBar() {
                     <li><a href="#">German</a></li>
                   </ul>
                 </li>
-                <div className="header-btn">
-                  <a href="#">Connect Wallet</a>
+                <div className="header-btn w-full">
+                  <span href="#">Connect Wallet</span>
                 </div>
+
               </ul>
+
             </div>
+
           </Nav>
         </Navbar.Collapse>
       </Navbar>

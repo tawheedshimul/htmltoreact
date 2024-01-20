@@ -97,31 +97,50 @@ Nav {
     padding: 10px;
     border-radius: 10px;
     margin-top: 10px;
+    width: 100%;
   }
 }
+
 header .navbar-nav a {
   padding: 5px 25px !important;
   color: #fff !important;
   font-family: 'Maven Pro', sans-serif;
   font-weight: 400;
-  font-size: 15px;
+  font-size: 14px;
   line-height: 17.63px;
 
 }
+
+@media screen and (max-width: 992px) {
+  .navbar-nav {
+    margin-bottom: 10px;
+  }
+}
+
 
 Navbar.Brand {
   padding-top: 0px;
 }
 
-.header-btn a {
+.header-btn {
+  align-items: center;
+}
+
+.header-btn span {
   background: #3B25D4;
   color: #fff;
   text-decoration: none;
   font-size: 16px;
-  padding: 7px 19px;
+  padding: 11px 19px;
   border-radius: 10px;
   font-weight: 600;
   font-family: 'Inter', sans-serif;
+  cursor: pointer;
+  align-content: center;
+}
+
+.header-btn span:hover {
+  text-decoration: underline;
 }
 
 .navbar-light .navbar-toggler {
@@ -145,6 +164,10 @@ Navbar.Brand {
   font-size: 15px;
   font-weight: 600;
   text-decoration: none;
+}
+
+.banner-btn a:hover {
+  text-decoration: underline;
 }
 
 .banner-btn {
@@ -294,6 +317,12 @@ Navbar.Brand {
   font-weight: 500;
   color: #FFB43C;
   font-family: 'Maven Pro', sans-serif;
+  text-decoration: none;
+}
+
+.tokenExplorer:hover {
+  text-decoration: underline;
+  color: #0167FF;
 }
 
 .presaleAuth {
@@ -327,11 +356,21 @@ Navbar.Brand {
   background: #fff;
 }
 
+.presaleAuth a {
+  text-decoration: none;
+}
+
+.presaleAuth a:hover {
+  text-decoration: underline;
+  color: #0167FF;
+}
+
 .presaleAuth a i {
   font-size: 14px;
   color: #0167FF;
   padding-right: 3px;
 }
+
 
 .presaleTimer {
   width: 100%;

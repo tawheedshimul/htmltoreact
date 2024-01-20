@@ -4,7 +4,7 @@ import bsud from "../assets/busd.png.png"
 import usdt from "../assets/usdt.png.png"
 import gdpLogo from "../assets/gdpLogo.png"
 import bnb from "../assets/bnb.png.png"
-import {  CheckCircleFill } from 'react-bootstrap-icons'
+import {  CheckCircleFill, Link45deg } from 'react-bootstrap-icons'
 
 function GdpCoin() {
     return (
@@ -19,7 +19,7 @@ function GdpCoin() {
                                     <h3 className="presaleTokenName">GDP Coin</h3>
                                     <p className="presalePair">Gdp / <span id="exchange-currency">BNB</span>
                                     </p>
-                                    <a className="tokenExplorer" href="#" target="_blank">View on Explorer <i className="fa fa-external-link"></i>
+                                    <a className="tokenExplorer" href="#" target="_blank">View on Explorer <i className="fa fa-external-link"><Link45deg/> </i>
                                     </a>
                                 </div>
                                 <div className="presaleAuth">
