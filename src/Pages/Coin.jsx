@@ -22,40 +22,40 @@ const faqItems = [
 ];
 
 function Coin() {
-    const [activeItem, setActiveItem] = useState(null);
-  
-    const handleAccordionItemClick = (index) => {
-      setActiveItem(activeItem === index ? null : index);
-    };
-  
-    return (
-      <section className="accordion-sec" id="accordian-sec" style={{ background: 'black', color: 'orange' }}>
-        <div className="mx-3">
-          <div className="top-heading">
-            <h3>FAQ’s</h3>
-          </div>
-          <Accordion flush>
-            {faqItems.map((item, index) => (
-              <AccordionItem key={index} eventKey={index.toString()} style={{ background: 'black', borderBottom: 'none', color: 'orange' }}>
-                <AccordionButton
-                  as="h2"
-                  onClick={() => handleAccordionItemClick(index)}
-                  className={`accordion-button ${activeItem === index ? 'active' : ''}`}
-                  style={{ background: 'black',color:'white' }}
-                >
-                  {item.question}
-                </AccordionButton>
-                <AccordionCollapse eventKey={index.toString()}>
-                  <div className="accordion-body">
-                    {item.answer}
-                  </div>
-                </AccordionCollapse>
-              </AccordionItem>
-            ))}
-          </Accordion>
+  const [activeItem, setActiveItem] = useState(null);
+
+  const handleAccordionItemClick = (index) => {
+    setActiveItem(activeItem === index ? null : index);
+  };
+
+  return (
+    <section className="accordion-sec" id="accordian-sec" style={{ background: 'black', color: 'orange' }}>
+      <div className="mx-3">
+        <div className="top-heading">
+          <h3>FAQ’s</h3>
         </div>
-      </section>
-    );
-  }
-  
-  export default Coin;
+        <Accordion flush>
+          {faqItems.map((item, index) => (
+            <AccordionItem key={index} eventKey={index.toString()} style={{ background: 'black', borderBottom: 'none', color: 'orange' }}>
+              <AccordionButton
+                as="h2"
+                onClick={() => handleAccordionItemClick(index)}
+                className={`accordion-button ${activeItem === index ? 'active spinning' : ''}`}
+                style={{ background: 'black', color: 'white' }}
+              >
+                {item.question}
+              </AccordionButton>
+              <AccordionCollapse eventKey={index.toString()}>
+                <div className="accordion-body">
+                  {item.answer}
+                </div>
+              </AccordionCollapse>
+            </AccordionItem>
+          ))}
+        </Accordion>
+      </div>
+    </section>
+  );
+}
+
+export default Coin;

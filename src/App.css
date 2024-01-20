@@ -238,10 +238,12 @@ Navbar.Brand {
   font-weight: 700;
   font-size: 15px;
   color: #000;
+  text-decoration: none;
 }
 
 .outer-col.outer-btn-col a span {
   font-weight: 400;
+  
 }
 
 .outer-col.outer-btn-col a:hover {
@@ -614,11 +616,15 @@ Navbar.Brand {
 
 .contractExplorer {
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 550;
   letter-spacing: 1px;
   color: #FFB43C;
+  text-decoration: none;
 }
-
+.contractExplorer:hover{
+  text-decoration: underline;
+  color: #0167FF;
+}
 .brandLabel {
   position: absolute;
   bottom: 0;
@@ -634,6 +640,11 @@ Navbar.Brand {
   align-items: center;
   justify-content: center;
   gap: 3px;
+  text-decoration: none;
+}
+.brandLabel:hover{
+text-decoration: underline;
+color: #0167FF;
 }
 
 .brandLabel img {
@@ -826,6 +837,11 @@ Navbar.Brand {
   color: #5283FF;
   font-size: 22px;
   line-height: 29px;
+  text-decoration: none;
+}
+.readbtn:hover{
+text-decoration: underline;
+color: #0167FF;
 }
 
 .tope-headings {
