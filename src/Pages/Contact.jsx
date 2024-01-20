@@ -13,7 +13,7 @@ function ContactPage() {
                         <div className="innercontact">
                             <div className="row">
                                 <div className="col-md-5">
-                                    <div className=" contact-information" style={{ background: `url(${contactimg})` }}>
+                                    <div className=" contact-information" >
                                         <h4 className="form-heading">
                                             Contact Information
                                         </h4>
