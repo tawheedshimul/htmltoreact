@@ -29,7 +29,7 @@ function Coin() {
     };
   
     return (
-      <section className="accordion-sec" id="accordion-sec" style={{ background: 'black', color: 'orange' }}>
+      <section className="accordion-sec" id="accordian-sec" style={{ background: 'black', color: 'orange' }}>
         <div className="mx-3">
           <div className="top-heading">
             <h3>FAQ’s</h3>

@@ -19,7 +19,7 @@ function MenuBar() {
   return (
     <header>
       <Navbar collapseOnSelect expand="lg" className='mx-5'>
-        <Navbar.Brand className='text-white navs-brand' href="#home"><h6>GDPC COIN</h6></Navbar.Brand>
+        <Navbar.Brand className='text-white navs-brand' href="#"><h6>GDPC COIN</h6></Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav" className='justify-content-end'>
           <Nav>
