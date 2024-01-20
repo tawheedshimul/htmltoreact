@@ -6,7 +6,7 @@ import { Facebook, Twitter } from 'react-bootstrap-icons';
 
 const TeamSection = () => {
   return (
-    <section className="our-team-sec" id="our-team">
+    <section className="our-team-sec container" id="our-team">
       <div className="mx-3">
         <div className="top-heading">
           <h3>Our Team</h3>

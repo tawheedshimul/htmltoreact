@@ -4,7 +4,7 @@ import contactimg from "../assets/contact-img.png"
 function ContactPage() {
     return (
         <section className="contact-us" id="contact">
-            <div className="mx-3">
+            <div className="container">
                 <div className="top-heading">
                     <h3>Contact</h3>
                 </div>

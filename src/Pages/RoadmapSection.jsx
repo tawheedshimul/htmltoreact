@@ -2,7 +2,7 @@ import React from 'react'
 
 function RoadmapSection() {
   return (
-    <section className="roadmap" id="roadmapping">
+    <section className="roadmap container" id="roadmapping">
     <div className="block--lg">
       <div className="container">
         <div className="top-heading">

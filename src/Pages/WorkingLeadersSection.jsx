@@ -16,7 +16,7 @@ const WorkingLeadersSection = () => {
       id="industry-leader"
       style={{ background: `url(${bg})` }}
     >
-      <div className="mx-3">
+      <div className="container">
         <div className="top-heading text-center">
           <h4>Working with industry leaders</h4>
         </div>

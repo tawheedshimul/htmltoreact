@@ -11,7 +11,7 @@ function Banner() {
                 backgroundSize: 'cover', // or 'contain' based on your preference
             }}
         >
-            <div className="mx-3">
+            <div className="mx-auto container">
                 <div className="row">
                     <div className="col-md-9 col-sm-12">
                         <p>Why use GDPC</p>

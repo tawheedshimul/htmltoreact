@@ -4,7 +4,7 @@ import videocol from '../assets/image1.png';
 
 const CheapestSection = () => {
   return (
-    <section className="cheapest-sec" id="cheapest-sec">
+    <section className="cheapest-sec container" id="cheapest-sec">
     <div className="container">
         <div className="row">
             <div className="col-md-6 col-sm-12 mb-5">

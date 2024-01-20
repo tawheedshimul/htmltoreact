@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 html,
 body {
   scroll-behavior: smooth;
@@ -153,7 +155,9 @@ Navbar.Brand {
 .banner-sec {
   padding: 165px 0px 349px;
   position: relative;
-  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 100%;
+
 }
 
 .banner-btn a {
@@ -243,7 +247,7 @@ Navbar.Brand {
 
 .outer-col.outer-btn-col a span {
   font-weight: 400;
-  
+
 }
 
 .outer-col.outer-btn-col a:hover {
@@ -621,10 +625,12 @@ Navbar.Brand {
   color: #FFB43C;
   text-decoration: none;
 }
-.contractExplorer:hover{
+
+.contractExplorer:hover {
   text-decoration: underline;
   color: #0167FF;
 }
+
 .brandLabel {
   position: absolute;
   bottom: 0;
@@ -642,9 +648,10 @@ Navbar.Brand {
   gap: 3px;
   text-decoration: none;
 }
-.brandLabel:hover{
-text-decoration: underline;
-color: #0167FF;
+
+.brandLabel:hover {
+  text-decoration: underline;
+  color: #0167FF;
 }
 
 .brandLabel img {
@@ -704,8 +711,9 @@ color: #0167FF;
   position: relative;
   box-shadow: 0px 1px 145px 59px #4968E94D;
   border-radius: 50%;
-  
+
 }
+
 @media screen and (min-width: 768px) {
   .left-iamge-col {
     width: 72%;
@@ -847,9 +855,10 @@ color: #0167FF;
   line-height: 29px;
   text-decoration: none;
 }
-.readbtn:hover{
-text-decoration: underline;
-color: #0167FF;
+
+.readbtn:hover {
+  text-decoration: underline;
+  color: #0167FF;
 }
 
 .tope-headings {
@@ -1267,7 +1276,7 @@ color: #0167FF;
   background-image: url(./assets/contact-img.png);
   background-position: center;
   background-size: cover;
-  
+
   height: 100%;
   padding: 60px;
   border-radius: 30px 0px 0px 30px;

@@ -16,7 +16,7 @@ import BlueSection from './Pages/BlueSection'
 
 function App() {
   return (
-    <div style={{ background: 'black', color: 'white' }}>
+    <div >
       <Navbar />
       <Banner />
       <BlueSection />
@@ -24,12 +24,12 @@ function App() {
       <NoFees />
       <TokenEconomy />
       <CheapestSection />
-      
       <TeamSection />
       <WorkingLeadersSection />
       <RoadmapSection />
       <Coin />
       <ContactPage />
+
       <Footer />
     </div>
   )

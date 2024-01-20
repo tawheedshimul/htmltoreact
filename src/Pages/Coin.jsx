@@ -29,8 +29,8 @@ function Coin() {
   };
 
   return (
-    <section className="accordion-sec" id="accordian-sec" style={{ background: 'black', color: 'orange' }}>
-      <div className="mx-3">
+    <section className="accordion-sec container" id="accordian-sec" style={{ background: 'black', color: 'orange' }}>
+      <div className="">
         <div className="top-heading">
           <h3>FAQ’s</h3>
         </div>
